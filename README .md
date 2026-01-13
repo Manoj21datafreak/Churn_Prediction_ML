@@ -16,7 +16,7 @@ The dataset contains customer-level information from a telecom company, includin
 - Customer demographics (gender, senior citizen, partner, dependents)
 - Services subscribed (internet, phone, streaming, security, etc.)
 - Contract & billing information (contract type, tenure, payment method, charges)
-- Target variable: `Churn` (Yes / No)
+- Target variable: Churn (Yes / No)
 
 The dataset is imbalanced, making accuracy an inappropriate metric.
 
@@ -36,8 +36,8 @@ The project is built as a **complete ML pipeline**:
 3. **Feature Engineering & Preprocessing**
    - Fixed data types and missing values
    - Created business-driven features such as:
-     - `charges_per_tenure`
-     - `is_long_term_customer`
+     - charges_per_tenure
+     - is_long_term_customer
    - One-hot encoded categorical variables and scaled numeric features
 
 4. **Modeling & Evaluation**
@@ -74,11 +74,11 @@ Final system:
 
 ##  Project Structure
 
-- `notebooks/1 Data_overview.ipynb` Data understanding & quality checks  
-- `notebooks/2 Eda.ipynb` Business-focused EDA  
-- `notebooks/3 Feature_engineering and Pre-Processing.ipynb` Feature engineering pipeline  
-- `notebooks/4 Baseline-Models.ipynb` Model training & comparison  
-- `notebooks/5 Threshold_optimization.ipynb` Cost-sensitive threshold optimization  
+- notebooks/1 Data_overview.ipynb Data understanding & quality checks  
+- notebooks/2 Eda.ipynb Business-focused EDA  
+- notebooks/3 Feature_engineering and Pre-Processing.ipynb Feature engineering pipeline  
+- notebooks/4 Baseline-Models.ipynb Model training & comparison  
+- notebooks/5 Threshold_optimization.ipynb Cost-sensitive threshold optimization  
 
 ---
 
