@@ -27,7 +27,7 @@ The project is built as a **complete ML pipeline**:
 
 1. **Data Understanding**
    - Inspected schema, data types, missing values
-   - Identified data quality issue in `TotalCharges`
+   - Identified data quality issue in TotalCharges
 
 2. **Exploratory Data Analysis (EDA)**
    - Analyzed churn by contract type, tenure, charges, and services
@@ -74,11 +74,11 @@ Final system:
 
 ##  Project Structure
 
-- notebooks/1 Data_overview.ipynb Data understanding & quality checks  
-- notebooks/2 Eda.ipynb Business-focused EDA  
-- notebooks/3 Feature_engineering and Pre-Processing.ipynb Feature engineering pipeline  
-- notebooks/4 Baseline-Models.ipynb Model training & comparison  
-- notebooks/5 Threshold_optimization.ipynb Cost-sensitive threshold optimization  
+- Notebook/1 Data_overview.ipynb Data understanding & quality checks  
+- Notebook/2 Eda.ipynb Business-focused EDA  
+- Notebook/3 Feature_engineering and Pre-Processing.ipynb Feature engineering pipeline  
+- Notebook/4 Baseline-Models.ipynb Model training & comparison  
+- Notebook/5 Threshold_optimization.ipynb Cost-sensitive threshold optimization  
 
 ---
 
